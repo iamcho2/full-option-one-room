@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/full-option-one-room/full-option-one-room/issues"
   },
-  "homepage": "https://github.com/full-option-one-room/full-option-one-room#readme"
+  "homepage": "https://github.com/full-option-one-room/full-option-one-room#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
