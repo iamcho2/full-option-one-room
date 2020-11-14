@@ -1,6 +1,10 @@
 import express from "express";
+import { qna } from "../controllers/qnaController";
 import routes from "../routes"
 
-export default qnaRouter;
+const qnaRouter = express.Router();
 
-qnaRouter.get(routes.qna, (req, res) => res.send('user index'));
+qnaRouter.get(routes.qna, qna);
+
+
+export default qnaRouter;
