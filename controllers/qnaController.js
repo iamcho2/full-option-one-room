@@ -1,0 +1,1 @@
+export const qna = (req, res) => res.render("qna");
