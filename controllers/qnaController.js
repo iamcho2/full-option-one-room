@@ -1,1 +1,1 @@
-export const qna = (req, res) => res.send("Qna");
+export const qna = (req, res) => res.render("qna");

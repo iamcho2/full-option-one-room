@@ -5,7 +5,7 @@ import routes from "../routes"
 
 const homeRouter = express.Router();
 
-homeRouter.net(routes.home, home)
+homeRouter.get(routes.home, home)
 
 
 export default homeRouter;
