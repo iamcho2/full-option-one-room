@@ -3,11 +3,14 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
-import { userRouter } from "./router";
+import homeRouter from "./routers/homeRouter";
+import qnaRouter from "./routers/qnaRouter";
+import routes from "./routes";
 
 const app = express();
 
 const handleListening = () => console.log(`Listening on: http://localhost:${PORT}`);
+
 const handleHome = (req, res) => res.send("hello from home!");
 const handleProfile = (req, res) => res.send("You are on my profile");
 
@@ -17,9 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use(helmet());
 app.use(morgan("dev"));
 
-app.get("/", handleHome);
-app.get("/profile", handleProfile);
-
-app.use("/user", userRouter);
+app.use(routes.home, homeRouter);
+app.use(routes.qna, qnaRouter);
 
 export default app; 
