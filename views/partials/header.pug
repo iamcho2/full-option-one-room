@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='utf-8')
+  script(src="home.js")
+  style
+    include style.css
+  title Site TItle
+header
+  .wrapper
+    h2 TITLE
+    nav
+      ul.menu
+        li.button
+          a(href='#') HOME
+        li.button
+          a(href='#') ABOUT
+
+.button_div
+  button#open0.btn(onmouseover='movie()' onmouseout='reImg()') MOVIE
+  .modal.hidden
+    .modal_overlay
+    .modal_content
+      h1 TITLE
+      img(src='sprite/room_movie.png')
+  button#open1.btn(onmouseover='trip()' onmouseout='reImg()') TRIP
+  .modal.hidden
+    .modal_overlay
+    .modal_content
+      img(src='sprite/room_Trip.png')
+  button#open2.btn(onmouseover='bed()' onmouseout='reImg()') SLEEP
+  .modal.hidden
+    .modal_overlay
+    .modal_content
+      img(src='sprite/room_Bed.png')
+  button#open3.btn(onmouseover='music()' onmouseout='reImg()') MUSIC
+  .modal.hidden
+    .modal_overlay
+    .modal_content
+      img(src='sprite/room_Cafe.png')
+      

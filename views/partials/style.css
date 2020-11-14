@@ -1,0 +1,157 @@
+*{
+  margin: 0; padding: 0;
+}
+body{
+  background-color: #e8e8e8;
+}
+
+
+header{
+  height: 75px;
+  background-color: #e6d5b8;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+h2{
+  color: white;
+  line-height: 75px;
+  float: left;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  float: left;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu a{
+  line-height: 75px;
+  color: white;
+  padding: 0 15px;
+  display: block;
+}
+
+
+.out{
+  width: 100%;
+  text-align: center;
+}
+.in{
+  display: inline-block;
+}
+.button li{
+  align-items: center;
+  font-size: 20px;
+  list-style-type: none;
+  float: left;
+  margin: 20px 20px 0px;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  background-color: #fff5ea;
+  color: black;
+}
+img{
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+}
+.img{
+  margin-top: 50px;
+}
+
+
+
+.modal{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*팝업창이 중앙에 나오게 함*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.modal_content{
+  background-color: white;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  width: 60%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+h1{
+  margin: 0;
+}
+.modal.hidden{
+  visibility: hidden;
+}
+/*버튼 CSS*/
+/*정렬*/
+.button_div{
+  text-align: center;
+}
+.button{
+  display: inline-block;
+}
+/*효과*/
+button{
+  background:#e6d5b8;
+  color:#fff;
+  border:none;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#e6d5b8;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #e6d5b8;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
