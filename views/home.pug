@@ -1,4 +1,21 @@
 include partials/header
+script.
+  function reImg(){
+  document.getElementById('mainimg').src="sprites/room.png"
+  }
+
+  function movie(){
+    document.getElementById('mainimg').src="sprites/room_movie.png"
+  }
+  function trip(){
+    document.getElementById('mainimg').src="sprites/room_Trip.png"
+  }
+  function music(){
+    document.getElementById('mainimg').src="sprites/room_Cafe.png"
+  }
+  function bed(){
+    document.getElementById('mainimg').src="sprites/room_Bed.png"
+  }
 
 .button_div
   button.btn#open0(onmouseover='movie()' onmouseout='reImg()') MOVIE
@@ -6,7 +23,7 @@ include partials/header
     .modal_overlay
     .modal_content
       h1 TITLE
-      img(src="sprites/room_.png")
+      img(src="sprites/room_movie.png")
   button#open1.btn(onmouseover='trip()' onmouseout='reImg()') TRIP
   .modal.hidden
     .modal_overlay
