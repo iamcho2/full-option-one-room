@@ -1,18 +1,16 @@
-
-
 function reImg(){
-  document.getElementById('mainimg').src = "sprite/room.png"
+  document.getElementById('mainimg').src = "sprites/room.png"
 }
 
 function movie(){
-  document.getElementById('mainimg').src = "sprite/room_movie.png"
+  document.getElementById('mainimg').src = "sprites/room_movie.png"
 }
 function trip(){
-  document.getElementById('mainimg').src = "sprite/room_Trip.png"
+  document.getElementById('mainimg').src = "sprites/room_Trip.png"
 }
 function music(){
-  document.getElementById('mainimg').src = "sprite/room_Cafe.png"
+  document.getElementById('mainimg').src = "sprites/room_Cafe.png"
 }
 function bed(){
-  document.getElementById('mainimg').src = "sprite/room_Bed.png"
+  document.getElementById('mainimg').src = "sprites/room_Bed.png"
 }

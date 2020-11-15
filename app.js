@@ -7,6 +7,8 @@ import homeRouter from "./routers/homeRouter";
 import qnaRouter from "./routers/qnaRouter";
 import routes from "./routes";
 
+
+
 const app = express();
 
 const handleListening = () => console.log(`Listening on: http://localhost:${PORT}`);
@@ -15,6 +17,7 @@ const handleHome = (req, res) => res.send("hello from home!");
 const handleProfile = (req, res) => res.send("You are on my profile");
 
 app.set('view engine', "pug");
+app.use(express.static('public'));
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
