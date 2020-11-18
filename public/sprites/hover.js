@@ -1,16 +1,25 @@
-function reImg(){
-  document.getElementById('mainimg').src="sprites/room.png"
-}
+$(document).ready(function() {
+  $('#open0').hover(function() {
+    $('#mainimg').attr('src','sprites/room_movie.png');
+  }, function() {
+    $('#mainimg').attr('src','sprites/room.png');
+  });
 
-function movie(){
-  document.getElementById('mainimg').src="sprites/room_movie.png"
-}
-function trip(){
-  document.getElementById('mainimg').src="sprites/room_Trip.png"
-}
-function music(){
-  document.getElementById('mainimg').src="sprites/room_Cafe.png"
-}
-function bed(){
-  document.getElementById('mainimg').src="sprites/room_Bed.png"
-}
+  $('#open1').hover(function() {
+    $('#mainimg').attr('src','sprites/room_Trip.png');
+  }, function() {
+    $('#mainimg').attr('src','sprites/room.png');
+  });
+
+  $('#open2').hover(function() {
+    $('#mainimg').attr('src','sprites/room_Bed.png');
+  }, function() {
+    $('#mainimg').attr('src','sprites/room.png');
+  });
+
+  $('#open3').hover(function() {
+    $('#mainimg').attr('src','sprites/room_Cafe.png');
+  }, function() {
+    $('#mainimg').attr('src','sprites/room.png');
+  });
+});
