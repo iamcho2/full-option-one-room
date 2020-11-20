@@ -3,6 +3,7 @@ img{
 }
 
 
+  /* 얘는 설문조사 체크박스를 토글로 만드는 */
 input[type="checkbox"]{
     -webkit-appearance: none;
     appearance: none;
