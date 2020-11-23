@@ -1,0 +1,50 @@
+img{
+    width: 50%;
+}
+
+
+  /* 얘는 설문조사 체크박스를 토글로 만드는 */
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 50px;
+    width: 200px;/*크기조정!*/
+    background-color: #34384b;
+    border-radius: 50px;
+    position: absolute;
+    outline: none;
+    transition:  0.5s;
+
+    position: relative;
+}
+input[type="checkbox"]:before{/*움직이는 버튼*/
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #d5d5d5;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+    transition:  0.5s;
+}
+input[type="checkbox"]:after{
+    content: "N";
+    position: relative;
+    color: #d5d5d5;
+    font-size: 40px;
+    left: 220px;
+    letter-spacing: 1px;
+    transition:  0.7s;
+}
+input[type="checkbox"]:checked{
+    background-color: #d5d5d5;
+}
+input[type="checkbox"]:checked:before{
+    background-color: #1f212d;
+    left: 155px;    /*크기조정!*/
+}
+input[type="checkbox"]:checked:after{
+    content: "Y";
+    color: #1f212d;
+}
