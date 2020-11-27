@@ -1,6 +1,8 @@
 
 h1 설문조사의 제목</br></br>
 img(src="sprites/room_movie.png")
+- var e = 0
+- var n = 0
 </br>
   .swiper-container
     .swiper-wrapper
@@ -11,7 +13,7 @@ img(src="sprites/room_movie.png")
           |2. 집에서 편하게 맥주랑 맛있는거 먹으면서 볼래</br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 집일경우 j++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q1")
       .swiper-slide
         div 평소 더 듣고싶은 칭찬은? </br>
           |1. 와 다음에도 너랑 일하고 싶다! 니꺼 참고 해도 돼?</br>
@@ -19,7 +21,7 @@ img(src="sprites/room_movie.png")
           |2. 넌 꼭 필요한 사람이야! 니가 제일 소중해</br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 t++ 2번일경우 f++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q2")
       .swiper-slide
        div 친구: 나 힘들게 돈 벌어서 아이패드 샀어ㅠㅠ </br>
           |1. 아이패드 어때? 좋아? 펜슬은 샀어?</br>
@@ -27,7 +29,7 @@ img(src="sprites/room_movie.png")
           |2. 돈 버느라 힘들었겠다... 고생했어ㅠㅠ </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 t++ 2번일경우 f++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q3")
       .swiper-slide
         div 길을 걷다가 신기한 꽃을 봤을 때 </br>
           |1. 꽃은 보라색인데 줄기는 흰색이네?</br>
@@ -35,7 +37,7 @@ img(src="sprites/room_movie.png")
           |2. 저 꽃에서 좋은 향기 날 것 같아 </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 s++ 2번일경우 n++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q4")
       .swiper-slide
         div 영화를 보고 난 후 친구가 어땠냐고 물어볼 때 </br>
           |1. 주인공이 어쩌구저쩌구 하고.. 그다음엔 저렇게 되고..</br>
@@ -43,7 +45,7 @@ img(src="sprites/room_movie.png")
           |2. CG가 대박이더라 나는 재밌었어~ </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 s++ 2번일경우 n++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q5")
       .swiper-slide
         div 방 정리를 할 때 </br>
           |1. 이건 나중에 필요할 수도 있으니까... 이쪽에 놔두자</br>
@@ -51,7 +53,7 @@ img(src="sprites/room_movie.png")
           |2. 안 쓰니까 버리자 </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 p++ 2번일경우 j++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q6")
       .swiper-slide
         div 나는 말 할 때 </br>
           |1. 말을 하면서 생각과 표현을 정리하는 편</br>
@@ -59,7 +61,7 @@ img(src="sprites/room_movie.png")
           |2. 먼저 생각과 표현을 정리하고 말 하는 편 </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 e++ 2번일경우 i++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q7")
       .swiper-slide
         div 여러가지 일을 해야할 때 </br>
           |1. 한가지의 일을 끝내고 그 다음 일을 한다</br>
@@ -67,18 +69,21 @@ img(src="sprites/room_movie.png")
           |2. 한가지의 일이 아직 안 끝났어도 그 다음 일을 할 수 있다 </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 j++ 2번일경우 p++
-            input(type='checkbox' name="question 1")
+            input(type='checkbox' id="q8")
       .swiper-slide
         div 나는 목소리가 </br>
           |1. 큰 편</br>
           | VS <br>
           |2. 작은 편 </br></br>
           h3 답변을 선택하고 스와이프 하세요!</br></br>
-            // 1번일경우 e++ 2번일경우 j++
-            input(type='checkbox' name="question 1")
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q9")
       .swiper-slide
-        input(type='submit')
+        button#submitButton(
+          type='submit'
+          style='width: 25px; height: 25px; background-color: black;'
+        )
 
+script(src="sprites/function.js")
 script(src='sprites/initialSwipe.js')
-
 
