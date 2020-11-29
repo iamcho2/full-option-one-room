@@ -1,5 +1,5 @@
 img{
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -9,7 +9,7 @@ input[type="checkbox"]{
     appearance: none;
     height: 50px;
     width: 200px;/*크기조정!*/
-    background-color: #34384b;
+    background-color: #B8AA93;
     border-radius: 50px;
     position: absolute;
     outline: none;
@@ -22,7 +22,7 @@ input[type="checkbox"]:before{/*움직이는 버튼*/
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #d5d5d5;
+    background-color: #8A7F6E;
     border-radius: 50%;
     left: 5px;
     top: 5px;
@@ -31,20 +31,46 @@ input[type="checkbox"]:before{/*움직이는 버튼*/
 input[type="checkbox"]:after{
     content: "1번";
     position: relative;
-    color: #d5d5d5;
+    color: #8A7F6E;
     font-size: 40px;
     left: 220px;
     letter-spacing: 1px;
     transition:  0.7s;
 }
 input[type="checkbox"]:checked{
-    background-color: #d5d5d5;
+    background-color: #8A7F6E;
 }
 input[type="checkbox"]:checked:before{
-    background-color: #1f212d;
+    background-color: #B8AA93;
     left: 155px;    /*크기조정!*/
 }
 input[type="checkbox"]:checked:after{
     content: "2번";
-    color: #1f212d;
+    color: #B8AA93;
+}
+
+
+/*설문조사 영역*/
+  /*설문조사의 설명*/
+.investigation{
+    color: #736A5B;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+/*대충 이렇게 디자인을 할 수 있게 설정
+  디자인감각이 별로인 관계로 다음으로 변경
+*/
+.vs {
+    color: #2E2A24;
+    font-size: 20px;
+    font-weight: bold;
+}
+.firstQ{
+    color: #8A7F6E;
+    font-size: 30px;
+}
+.secondQ{
+    color: #B8AA93;
+    font-size: 30px;
 }
