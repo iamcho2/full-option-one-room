@@ -3,8 +3,6 @@ h1 MBTI를 통해 추천해주는 영화</br></br>
 img(src="sprites/room_movie.png")
 </br>
 .investigation &lt;코로나 때문에 밖에 나가지 못하는 당신&gt; <br> 그런 당신을 위해 만든 이 특별한 설문조사로<br>당신과 함께할 영화를 골라봐요
-- var e = 0
-- var n = 0
 </br>
 .upper_swiper
   .swiper-container
@@ -90,6 +88,42 @@ img(src="sprites/room_movie.png")
           h3 답변을 선택하고 스와이프 하세요!</br></br>
             // 1번일경우 e++ 2번일경우 i++
             input(type='checkbox' id="q9")
+      .swiper-slide
+        div
+          h3 '사과'하면 떠오르는 것은? </br></br>
+          .firstQ 1. 빨간색 </br>
+          .vs VS <br>
+          .secondQ 2. 백설공주 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q10")
+      .swiper-slide
+        div
+          h3 시험공부중인 카페에 친구가 놀러왔습니다. 누가 더 잘못한 사람인가요? </br></br>
+          .firstQ 1. 고생한다고 음료 사 오다가 요점노트에 엎은 초이 </br>
+          .vs VS <br>
+          .secondQ 2. 내가 화장실 간 사이 밤새 정리한 요점노트 사진찍은 한준 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q11")
+      .swiper-slide
+        div
+          h3 선생님: "오늘 강당에서 mbti 검사하고 조별로 모여서 게임할거니까 모여라~" </br></br>
+          .firstQ 1. 와 재밌겠다! 친구들 끌고 간다 </br>
+          .vs VS <br>
+          .secondQ 2. 안 간다 / 안 갈 만한 핑계를 만든다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q12")
+      .swiper-slide
+        div
+          h3 선생님: "오늘 강당에서 mbti 검사하고 조별로 모여서 게임할거니까 모여라~" </br></br>
+          .firstQ 1. 와 재밌겠다! 친구들 끌고 간다 </br>
+          .vs VS <br>
+          .secondQ 2. 안 간다 / 안 갈 만한 핑계를 만든다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q13")
       .swiper-slide
         button#submitButton(
           type='submit'
