@@ -27,6 +27,9 @@ function calculateMbti(){
   if(!document.getElementById('q7').checked){ e++ }else{ i++ }
   if(!document.getElementById('q8').checked){ j++ }else{ p++ }
   if(!document.getElementById('q9').checked){ e++ }else{ i++ }
+  if(!document.getElementById('q10').checked){ s++ }else{ n++ }
+  if(!document.getElementById('q11').checked){ t++ }else{ f++ }
+  if(!document.getElementById('q12').checked){ e++ }else{ i++ }
 
   //MBTI 결과
   var isE = false
