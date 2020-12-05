@@ -23,3 +23,4 @@ $(document).ready(function() {
     $('#mainimg').attr('src','sprites/room.png');
   });
 });
+
