@@ -1,0 +1,125 @@
+
+h1 MBTI를 통해 추천해주는 카페 음료수</br></br>
+img(src="sprites/room_movie.png")
+</br>
+.investigation &lt;카페에서 뭘 먹을지 고민인 당신&gt; <br>오늘의 주문은 이번 설문조사를 통해<br>가볍게 한잔 골라보는게 어때요?
+</br>
+.upper_swiper
+  .swiper-container
+    .swiper-wrapper
+      .swiper-slide
+        div 
+          h3 커피를 주문한다면 나는 </br></br>
+          .firstQ 1. 무조건 아메리카노 </br>
+          .vs VS <br>
+          .secondQ 2. 시그니쳐 메뉴가 있는지 살펴본다 </br></br>
+          h4 답변을 선택하고 스와이프 하세요!</br></br>
+            // 2번일 경우 j++
+            input(type='checkbox' id="q1_cafe")
+      .swiper-slide
+        div 
+          h3 나는 행동을 할 때 </br></br>
+          .firstQ 1. 일이 먼저 되어야 한다 </br>
+          .vs VS <br>
+          .secondQ 2. 사람 관계는 챙기고 가야한다</br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q2_cafe")
+      .swiper-slide
+       div 
+          h3 이번 여행을 어디로 갈까? </br></br>
+          .firstQ 1. 리뷰가 많은 검증된 곳으로 가자! </br>
+          .vs VS <br>
+          .secondQ 2. 아무도 가지 않은 새로운 곳으로 가자! </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q3_cafe")
+      .swiper-slide
+        div 
+          h3 나는 </br></br>
+          .firstQ 1. 공상을 더 좋아한다</br>
+          .vs VS <br>
+          .secondQ 2. 실제 경험을 더 좋아한다</br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q4_cafe")
+      .swiper-slide
+        div 
+          h3 여행지에서 멋진 풍경이 보인다면 </br></br>
+          .firstQ 1. 일단 사진 먼저 찍고 본다 </br>
+          .vs VS <br>
+          .secondQ 2. 풍경부터 먼저 본다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q5_cafe")
+      .swiper-slide
+        div
+          h3 여행지에서 차가 막힌다면 </br></br>
+          .firstQ 1. 늦어도 괜찮으니 느긋하게 즐기고 새로운 장소로 간다 </br>
+          .vs VS <br>
+          .secondQ 2. 변경된 시간에 맞게 일정을 새로 계획한다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 p++ 2번일경우 j++
+            input(type='checkbox' id="q6_cafe")
+      .swiper-slide
+        div
+          h3 나에게 있어 커피 타임이란 </br></br>
+          .firstQ 1. 친구들과 수다 떨며 스트레스 푸는 시간</br>
+          .vs VS <br>
+          .secondQ 2. 조용히 혼자만의 시간을 가지면 생각을 정리하는 시간 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q7_cafe")
+      .swiper-slide
+        div
+          h3 나는 일을 시작하기 전 </br></br>
+          .firstQ 1. 이미 계획표를 모두 세웠다 </br>
+          .vs VS <br>
+          .secondQ 2. 일단 일을 하는게 우선이라 계획은 없다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 j++ 2번일경우 p++
+            input(type='checkbox' id="q8_cafe")
+      .swiper-slide
+        div
+          h3 단골 커피점을 갔을 떄 나의 위치는 </br></br>
+          .firstQ 1. 중앙의 푹신한 자리 </br>
+          .vs VS <br>
+          .secondQ 2. 조용한 창가의 자리 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q9_cafe")
+      .swiper-slide
+        div
+          h3 아는 카페의 위치를 알려줄 때 </br></br>
+          .firstQ 1. 아주 상세히 알려준다 </br>
+          .vs VS <br>
+          .secondQ 2. 큰 건물 위주로 짧고 간단하게 알려준다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q10_cafe")
+      .swiper-slide
+        div
+          h3 유명 관광지에 왔더니 먹을려던 음식점의 줄이 너무 길다</br></br>
+          .firstQ 1. 사람이 너무 많아서 다른 곳으로 간다 </br>
+          .vs VS <br>
+          .secondQ 2. 이곳은 맛집이니깐 하면서 기다린다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q11_cafe")
+      .swiper-slide
+        div
+          h3 주말 아침에 나는 </br></br>
+          .firstQ 1. 일단 느긋하게 늦잠부터 자고 생각하자 </br>
+          .vs VS <br>
+          .secondQ 2. 평일에 계획한 일들을 하자! </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q12_cafe")
+      .swiper-slide
+        button#submitButtonCafe(
+          type='submit'
+        ) END
+
+script(src="sprites/calculateMbtiCafe.js")
+script(src='sprites/initialSwipe.js')
+

@@ -68,3 +68,71 @@ export const result_istj = (req, res) => {
 export const result_istp = (req, res) => {
     res.render("./result_movie/result_istp");
 };
+
+
+//Cafe
+
+export const result_enfj_cafe = (req, res) => {
+    res.render("./result_cafe/result_enfj_cafe");
+};
+
+export const result_enfp_cafe = (req, res) => {
+    res.render("./result_cafe/result_enfp_cafe");
+};
+
+export const result_entj_cafe = (req, res) => {
+    res.render("./result_cafe/result_entj_cafe");
+};
+
+export const result_entp_cafe = (req, res) => {
+    res.render("./result_cafe/result_entp_cafe");
+};
+
+export const result_esfj_cafe = (req, res) => {
+    res.render("./result_cafe/result_esfj_cafe");
+};
+
+export const result_esfp_cafe = (req, res) => {
+    res.render("./result_cafe/result_esfp_cafe");
+};
+
+export const result_estj_cafe = (req, res) => {
+    res.render("./result_cafe/result_esfp_cafe");
+};
+
+export const result_estp_cafe = (req, res) => {
+    res.render("./result_cafe/result_estp_cafe");
+};
+
+//i
+export const result_infj_cafe = (req, res) => {
+    res.render("./result_cafe/result_infj_cafe");
+};
+
+export const result_infp_cafe = (req, res) => {
+    res.render("./result_cafe/result_infp_cafe");
+};
+
+export const result_intj_cafe = (req, res) => {
+    res.render("./result_cafe/result_intj_cafe");
+};
+
+export const result_intp_cafe = (req, res) => {
+    res.render("./result_cafe/result_intp_cafe");
+};
+
+export const result_isfj_cafe = (req, res) => {
+    res.render("./result_cafe/result_isfj_cafe");
+};
+
+export const result_isfp_cafe = (req, res) => {
+    res.render("./result_cafe/result_isfp_cafe");
+};
+
+export const result_istj_cafe = (req, res) => {
+    res.render("./result_cafe/result_istj_cafe");
+};
+
+export const result_istp_cafe = (req, res) => {
+    res.render("./result_cafe/result_istp_cafe");
+};

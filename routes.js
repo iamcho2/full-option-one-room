@@ -20,6 +20,25 @@ const RESULT_ISFP ="/result_isfp"
 const RESULT_ISTJ ="/result_istj"
 const RESULT_ISTP ="/result_istp"
 
+// CAfe Result
+const RESULT_ENFJ_CAFE ="/result_enfj_cafe";
+const RESULT_ENFP_CAFE ="/result_enfp_cafe";
+const RESULT_ENTJ_CAFE ="/result_entj_cafe"
+const RESULT_ENTP_CAFE ="/result_entp_cafe"
+const RESULT_ESFJ_CAFE ="/result_esfj_cafe"
+const RESULT_ESFP_CAFE ="/result_esfp_cafe"
+const RESULT_ESTJ_CAFE ="/result_estj_cafe"
+const RESULT_ESTP_CAFE ="/result_estp_cafe"
+
+const RESULT_INFJ_CAFE ="/result_infj_cafe"
+const RESULT_INFP_CAFE ="/result_infp_cafe"
+const RESULT_INTJ_CAFE ="/result_intj_cafe"
+const RESULT_INTP_CAFE ="/result_intp_cafe"
+const RESULT_ISFJ_CAFE ="/result_isfj_cafe"
+const RESULT_ISFP_CAFE ="/result_isfp_cafe"
+const RESULT_ISTJ_CAFE ="/result_istj_cafe"
+const RESULT_ISTP_CAFE ="/result_istp_cafe"
+
 // Qna
 const QNA = "/qna"
 
@@ -42,6 +61,25 @@ const routes = {
     result_isfp: RESULT_ISFP,
     result_istj: RESULT_ISTJ,
     result_istp: RESULT_ISTP,
+
+//cafe
+    result_enfj_cafe: RESULT_ENFJ_CAFE,
+    result_enfp_cafe: RESULT_ENFP_CAFE,
+    result_entj_cafe: RESULT_ENTJ_CAFE,
+    result_entp_cafe: RESULT_ENTP_CAFE,
+    result_esfj_cafe: RESULT_ESFJ_CAFE,
+    result_esfp_cafe: RESULT_ESFP_CAFE,
+    result_estj_cafe: RESULT_ESTJ_CAFE,
+    result_estp_cafe: RESULT_ESTP_CAFE,
+
+    result_infj_cafe: RESULT_INFJ_CAFE,
+    result_infp_cafe: RESULT_INFP_CAFE,
+    result_intj_cafe: RESULT_INTJ_CAFE,
+    result_intp_cafe: RESULT_INTP_CAFE,
+    result_isfj_cafe: RESULT_ISFJ_CAFE,
+    result_isfp_cafe: RESULT_ISFP_CAFE,
+    result_istj_cafe: RESULT_ISTJ_CAFE,
+    result_istp_cafe: RESULT_ISTP_CAFE,
 
     qna: QNA
     //,
