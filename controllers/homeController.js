@@ -136,3 +136,69 @@ export const result_istj_cafe = (req, res) => {
 export const result_istp_cafe = (req, res) => {
     res.render("./result_cafe/result_istp_cafe");
 };
+
+// Book
+export const result_enfj_book = (req, res) => {
+    res.render("./result_book/result_enfj_book");
+};
+
+export const result_enfp_book = (req, res) => {
+    res.render("./result_book/result_enfp_book");
+};
+
+export const result_entj_book = (req, res) => {
+    res.render("./result_book/result_entj_book");
+};
+
+export const result_entp_book = (req, res) => {
+    res.render("./result_book/result_entp_book");
+};
+
+export const result_esfj_book = (req, res) => {
+    res.render("./result_book/result_esfj_book");
+};
+
+export const result_esfp_book = (req, res) => {
+    res.render("./result_book/result_esfp_book");
+};
+
+export const result_estj_book = (req, res) => {
+    res.render("./result_book/result_esfp_book");
+};
+
+export const result_estp_book = (req, res) => {
+    res.render("./result_book/result_estp_book");
+};
+
+//i
+export const result_infj_book = (req, res) => {
+    res.render("./result_book/result_infj_book");
+};
+
+export const result_infp_book = (req, res) => {
+    res.render("./result_book/result_infp_book");
+};
+
+export const result_intj_book = (req, res) => {
+    res.render("./result_book/result_intj_book");
+};
+
+export const result_intp_book = (req, res) => {
+    res.render("./result_book/result_intp_book");
+};
+
+export const result_isfj_book = (req, res) => {
+    res.render("./result_book/result_isfj_book");
+};
+
+export const result_isfp_book = (req, res) => {
+    res.render("./result_book/result_isfp_book");
+};
+
+export const result_istj_book = (req, res) => {
+    res.render("./result_book/result_istj_book");
+};
+
+export const result_istp_book = (req, res) => {
+    res.render("./result_book/result_istp_book");
+};
