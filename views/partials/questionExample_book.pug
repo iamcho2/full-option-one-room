@@ -1,0 +1,125 @@
+
+h1 MBTI를 통해 추천해주는 책</br></br>
+img(src="sprites/room_Trip.png")
+</br>
+.investigation &lt;밖으로 놀러 가지 못하는 요즘!&gt; <br>휴가 대신 읽을 거리를 찾는 당신을 위해<br>여러분의 특징에 맞는 책을 골라드릴게요!
+</br>
+.upper_swiper
+  .swiper-container
+    .swiper-wrapper
+      .swiper-slide
+        div 
+          h3 내 여행 계획표는 어떻게 생겼나요? </br></br>
+          .firstQ 1. 공항에서 와이파이 픽업 - 도착 - 버스타고 - 메인역에서 ㅇㅇ역 - 호텔에 짐 풀고 야시장 - ... </br>
+          .vs VS <br>
+          .secondQ 2. 9:30 집에서 리무진 탑승, 10:30 인천공항 도착, 11:00 인천공항 3층 출입구 A카운터 유리벽 사이 여행박사(왕복권/패스)... </br></br>
+          h4 답변을 선택하고 스와이프 하세요!</br></br>
+            // 2번일 경우 j++
+            input(type='checkbox' id="q1_book")
+      .swiper-slide
+        div 
+          h3 당신은 사과할 때 </br></br>
+          .firstQ 1. "늦어서 미안 오늘 내가 늦은 이유는 어쩌구 저쩌구..." </br>
+          .vs VS <br>
+          .secondQ 2. "미안해 진짜 미안.. 잘못했어.. 내가 밥살게 진짜 미안 다음부턴 안 늦을게.."</br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q2_book")
+      .swiper-slide
+       div 
+          h3 친구가 힘들다고 할 때 당신의 위로는? </br></br>
+          .firstQ 1. "뭐 때문에 힘들어? 부장님이 왜? 그래서?(맞춤형 조언을 해줘야지!)" </br>
+          .vs VS <br>
+          .secondQ 2. "헐 괜찮아? ㅠㅠ 월요일이라 힘들지...(먼저 말 안하는 거 보니 말하기 싫을수도 있겠다)" </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q3_book")
+      .swiper-slide
+        div 
+          h3 당신에게 망상이란? </br></br>
+          .firstQ 1. 사람들에게 인기 있는 나, 멋진 직장을 가진 나, ...</br>
+          .vs VS <br>
+          .secondQ 2. 엄청난 초능력을 가진 나, 주먹 하나로 학교의 짱을 먹은 나, ...</br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q4_book")
+      .swiper-slide
+        div 
+          h3 교수님: "'병아리는 멍멍, 개구리는 음메' 시험에 나오니 꼭 기억해두세요" </br></br>
+          .firstQ 1. 이해는 안가지만 뭐 그냥 외우자 </br>
+          .vs VS <br>
+          .secondQ 2. 병아리가 멍멍이라고? 내 지식으로는 성립이 안되는데? 이해를 못하는데 어떻게 기억해? </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q5_book")
+      .swiper-slide
+        div
+          h3 집에 딱 들어갔는데 방이 어질러져 있을 때 </br></br>
+          .firstQ 1. 지금 치울 가치가 있는가 고민한다 </br>
+          .vs VS <br>
+          .secondQ 2. 손부터 뻗는다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 p++ 2번일경우 j++
+            input(type='checkbox' id="q6_book")
+      .swiper-slide
+        div
+          h3 당신은 </br></br>
+          .firstQ 1. 남 말에 끼어드는 사람</br>
+          .vs VS <br>
+          .secondQ 2. 남이 내 말에 끼어드는 사람</br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q7_book")
+      .swiper-slide
+        div
+          h3 과제를 받았을 때 </br></br>
+          .firstQ 1. 뭐 부터 해야할지 계획을 정해야 틀이 잡힌다. </br>
+          .vs VS <br>
+          .secondQ 2. 우선 자료조사부터 해 봐야 틀이 잡힌다. </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 j++ 2번일경우 p++
+            input(type='checkbox' id="q8_book")
+      .swiper-slide
+        div
+          h3 학원 다니는 첫 날! 당신은 어떻게 행동하나요? </br></br>
+          .firstQ 1. 모르는 사람에게 먼저 말을 건다 </br>
+          .vs VS <br>
+          .secondQ 2. 먼저 말 절대 안 건다 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q9_book")
+      .swiper-slide
+        div
+          h3 당신은 사람을 처음 만났을 때 첫인상을 어떻게 판단하나요? </br></br>
+          .firstQ 1. 상대방의 옷차림, 헤어스타일 등 전체적으로 보여지는 겉모습 </br>
+          .vs VS <br>
+          .secondQ 2. 그 사람의 눈빛이나 풍기는 분위기 / 직감적으로 나와 맞을 것 같다 라고 느껴지는 감 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 s++ 2번일경우 n++
+            input(type='checkbox' id="q10_book")
+      .swiper-slide
+        div
+          h3 친구: "내가 오늘 이사를 했는데 문을 닫으면 페인트 냄새 때문에 머리가 깨질 것 같고 문을 열면 매연때문에 죽을 것 같아.. 어떡하지?" </br></br>
+          .firstQ 1. 그래도 차라리 매연이 낫지않나? / 아니 차라리 문닫고 페인트가 낫다. </br>
+          .vs VS <br>
+          .secondQ 2. 근데 너 괜찮아?? </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 t++ 2번일경우 f++
+            input(type='checkbox' id="q11_book")
+      .swiper-slide
+        div
+          h3 친구들과 놀고 난 후 </br></br>
+          .firstQ 1. 역시 친구들이랑 놀아야 충전이 된다니까~ </br>
+          .vs VS <br>
+          .secondQ 2. 아후 피곤하다... 이제 집 가서 쉬어야지 </br></br>
+          h3 답변을 선택하고 스와이프 하세요!</br></br>
+            // 1번일경우 e++ 2번일경우 i++
+            input(type='checkbox' id="q12_book")
+      .swiper-slide
+        button#submitButtonBook(
+          type='submit'
+        ) END
+
+script(src="sprites/calculateMbtiBook.js")
+script(src='sprites/initialSwipe.js')
+
