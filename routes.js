@@ -39,6 +39,25 @@ const RESULT_ISFP_CAFE ="/result_isfp_cafe"
 const RESULT_ISTJ_CAFE ="/result_istj_cafe"
 const RESULT_ISTP_CAFE ="/result_istp_cafe"
 
+// Book Result
+const RESULT_ENFJ_BOOK ="/result_enfj_book";
+const RESULT_ENFP_BOOK ="/result_enfp_book";
+const RESULT_ENTJ_BOOK ="/result_entj_book"
+const RESULT_ENTP_BOOK ="/result_entp_book"
+const RESULT_ESFJ_BOOK ="/result_esfj_book"
+const RESULT_ESFP_BOOK ="/result_esfp_book"
+const RESULT_ESTJ_BOOK ="/result_estj_book"
+const RESULT_ESTP_BOOK ="/result_estp_book"
+
+const RESULT_INFJ_BOOK ="/result_infj_book"
+const RESULT_INFP_BOOK ="/result_infp_book"
+const RESULT_INTJ_BOOK ="/result_intj_book"
+const RESULT_INTP_BOOK ="/result_intp_book"
+const RESULT_ISFJ_BOOK ="/result_isfj_book"
+const RESULT_ISFP_BOOK ="/result_isfp_book"
+const RESULT_ISTJ_BOOK ="/result_istj_book"
+const RESULT_ISTP_BOOK ="/result_istp_book"
+
 // Qna
 const QNA = "/qna"
 
@@ -80,6 +99,25 @@ const routes = {
     result_isfp_cafe: RESULT_ISFP_CAFE,
     result_istj_cafe: RESULT_ISTJ_CAFE,
     result_istp_cafe: RESULT_ISTP_CAFE,
+
+    //book
+    result_enfj_book: RESULT_ENFJ_BOOK,
+    result_enfp_book: RESULT_ENFP_BOOK,
+    result_entj_book: RESULT_ENTJ_BOOK,
+    result_entp_book: RESULT_ENTP_BOOK,
+    result_esfj_book: RESULT_ESFJ_BOOK,
+    result_esfp_book: RESULT_ESFP_BOOK,
+    result_estj_book: RESULT_ESTJ_BOOK,
+    result_estp_book: RESULT_ESTP_BOOK,
+
+    result_infj_book: RESULT_INFJ_BOOK,
+    result_infp_book: RESULT_INFP_BOOK,
+    result_intj_book: RESULT_INTJ_BOOK,
+    result_intp_book: RESULT_INTP_BOOK,
+    result_isfj_book: RESULT_ISFJ_BOOK,
+    result_isfp_book: RESULT_ISFP_BOOK,
+    result_istj_book: RESULT_ISTJ_BOOK,
+    result_istp_book: RESULT_ISTP_BOOK,
 
     qna: QNA
     //,
