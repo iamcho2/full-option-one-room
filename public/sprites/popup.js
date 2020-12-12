@@ -1,7 +1,6 @@
 const o0 = document.getElementById("open0");
 const o1 = document.getElementById("open1");
 const o2 = document.getElementById("open2");
-const o3 = document.getElementById("open3");
 const modal = document.getElementsByClassName("modal");
 const overlay = document.getElementsByClassName("modal_overlay");
 function open(i){
@@ -26,13 +25,8 @@ function wBtn(event) {
         open(2);
         close(2);
         break;
-    case 'open3':
-        open(3);
-        close(3);
-        break;
     }
 }
 o0.addEventListener('click', wBtn);
 o1.addEventListener('click', wBtn);
 o2.addEventListener('click', wBtn);
-o3.addEventListener('click', wBtn);
