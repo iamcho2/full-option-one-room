@@ -11,7 +11,7 @@ import routes from "./routes";
 
 const app = express();
 
-const handleListening = () => console.log(`Listening on: http://localhost:${PORT}`);
+const handleListening = () => console.log(`Listening on: https://localhost:${PORT}`);
 
 const handleHome = (req, res) => res.send("hello from home!");
 const handleProfile = (req, res) => res.send("You are on my profile");
